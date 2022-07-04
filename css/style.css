@@ -1,0 +1,13 @@
+.accordion {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+.hide {
+    max-height: 0;
+}
